@@ -35,7 +35,7 @@ public class MyQueueList {
 	
 	public int deQueue() {
 		if(!isEmpty()) {
-			Node temp=front
+			Node temp=front;
 			front=front.next;
 			if(front==null) {
 				rear=null;
