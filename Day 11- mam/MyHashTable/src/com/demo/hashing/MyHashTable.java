@@ -8,7 +8,7 @@ public class MyHashTable {
 		public Node(int data) {
 			this.data = data;
 			next=null;
-		};
+		}
 		
 	}
 	public MyHashTable() {
