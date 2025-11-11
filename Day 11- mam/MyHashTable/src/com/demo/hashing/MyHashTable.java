@@ -24,7 +24,6 @@ public class MyHashTable {
 			heads[i]=null;
 		}
 	}
-	
 	public void insertData(int val) {
 		Node newNode=new Node(val);
 		//apply hash function to find position
@@ -33,8 +32,7 @@ public class MyHashTable {
 		if(heads[pos]!=null) {
 			newNode.next=heads[pos];
 		}	
-		heads[pos]=newNode;
-		
+		heads[pos]=newNode;	
 	}
 	
 	public void displayHashTable() {
