@@ -26,8 +26,6 @@ public class TestAdjecentMatrix {
 			}
 		}
 	}
-	
-	
 	public static void displyMatrix(int[][] mygraph) {
 		for(int i=0; i<mygraph.length; i++) {
 			for(int j=0; j<mygraph[0].length; j++) {
