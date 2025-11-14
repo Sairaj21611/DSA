@@ -7,11 +7,12 @@ public class Array2Dtest {
 		int[][] arr = { {12,14,17,8},{22,16,19,22},{31,23,11,15},{16,27,13,18}};
 		Array2D ar = new Array2D();
 		
-		ar.display(arr);
-		ar.reverse();
+//		ar.display(arr);
+//		ar.reverseRow(arr);
+//		ar.display(arr);
+	//	ar.printMaxOdd(arr);
 		
-		
-		
+		ar.sumOfRowsColumns(arr);
 	}
 
 }

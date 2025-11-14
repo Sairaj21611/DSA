@@ -23,7 +23,7 @@ public class MyListQueue {
 		if(isEmpty()) {
 			front = newNode;
 		}else {
-			rare.next = 
+			
 		}
 	}
 }
