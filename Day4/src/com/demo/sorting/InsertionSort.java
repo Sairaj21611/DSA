@@ -21,7 +21,6 @@ public class InsertionSort {
 //		
 //	}
 	
-	
 	public static void insertionSort(int[] arr) {
 		for(int i=1; i<arr.length; i++) {
 			int j=i-1;
@@ -34,11 +33,8 @@ public class InsertionSort {
 			}
 			
 			arr[j+1] = key;
-		}
-		
+		}	
 	}
-	
-
 }
 
 
